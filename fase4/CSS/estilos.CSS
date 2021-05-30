@@ -1,0 +1,28 @@
+header{
+    background-color: aqua;
+    padding: 20px;
+}
+nav{
+    background-color:tomato;
+    padding: 10px;
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: blue;
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color: teal;
+}
+footer{
+    background-color: cornflowerblue;
+    padding: 10px;
+    text-align: center;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear:both;
+}
